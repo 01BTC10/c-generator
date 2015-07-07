@@ -23,13 +23,13 @@ Once that is done you can use it
 yo c-generator
 ```
 
-Native build
+Native build with "livereload"
 ```bash
-yo ./watch.sh
+make watch
 ```
-emcc build to js
+emcc build to js with "livereload"
 ```bash
-yo ./watch.sh js
+make watchjs
 ```
 
 ## License

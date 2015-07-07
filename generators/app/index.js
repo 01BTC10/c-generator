@@ -41,12 +41,8 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath('makefile')
       );
       this.fs.copy(
-        this.templatePath('watch.sh'),
-        this.destinationPath('watch.sh')
-      );
-      this.fs.copy(
         this.templatePath('bin/a'),
-        this.destinationPath('bin/program.js')
+        this.destinationPath('bin/a.o')
       );
     }
   },
